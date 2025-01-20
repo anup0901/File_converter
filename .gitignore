@@ -1,0 +1,42 @@
+# Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cpython-*.pyc
+*.__pycache__/
+
+# Logs
+*.log
+
+# Docker files (if they are temporary or shouldn't be tracked)
+docker-compose.override.yml
+Dockerfile
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Output files/folder (typically should not be tracked)
+output/
+
+# Input files/folder (if they contain user-uploaded content)
+input/
+
+# Temporary or intermediary files
+files/csv/*.csv:Zone.Identifier
+files/csv/inter/*.csv:Zone.Identifier
+files/dsdas/*.json:Zone.Identifier
+files/json/*.json:Zone.Identifier
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
